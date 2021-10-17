@@ -6,9 +6,7 @@ const axios = require('axios').default;
 const hostname = 'localhost';
 const port = 8080;
 
-
 app.use(express.static(path.join(__dirname + '/public/')));
-
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");

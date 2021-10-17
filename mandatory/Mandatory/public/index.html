@@ -3,21 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/array.css">
+    <link rel="stylesheet" href="/static/css/index.css">
     <title>index</title>
 </head>
-<body>
+<body class="body">
     <h1 id="title">Welcome to Index</h1>
      
-    <img src="/static/pictures/code.png" alt="" style="width:500px;height:600px;">
-
-    <div>
-        <ol>
-            <li>Topic</li>
-            <li>Link</li>
-            <li>Summery</li>
-        </ol>
-    </div>
+    <img class="indexPicture" src="/static/pictures/code.png" alt="" style="width:500px;height:600px;">
 
     <div>
     <table border="1">
@@ -36,10 +28,10 @@
             <th>Link</th>
             <th>Link</th>
           </tr>
-        <tr class="links">
-          <td><a href="/array">Take me to the Array</a></td>
-          <td><a href="/loops">Take me to the Loops</a></td>
-          <td><a href="/restful">Take me to the Restful</a></td>
+        <tr>
+          <td class="links"><a href="/array">Take me to the Array</a></td>
+          <td class="links"><a href="/loops">Take me to the Loops</a></td>
+          <td class="links"><a href="/restful">Take me to the Restful</a></td>
         </tr>
         <tr>
             <th>Summery</th>
@@ -50,12 +42,13 @@
           <td><p>An array is a container object that holds a fixed number 
             of values of a single type. The length of an array is established 
             when the array is created. After creation, its length is fixed.</p></td>
-          <td><p>Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false when analysed. A loop will continue running until the defined condition returns false.</p></td>
-          <td><p>What is a REST API? A REST API is a way of easily accessing web services without having excess processing. Whenever a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource.</p></td>
+          <td>Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false when analysed. A loop will continue running until the defined condition returns false.</td>
+          <td>What is a REST API? A REST API is a way of easily accessing web services without having excess processing. Whenever a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource.</td>
         </tr>
       </table>
     </div>
-    <script src="app.js"></script>
+
+    
 
 </body>
 </html>
